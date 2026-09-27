@@ -25,3 +25,32 @@ Provides general educational health information. **Not** a licensed medical prof
 | Qt        | 6.x (Widgets) |
 | Compiler  | MSVC 2019+, MinGW, or Clang |
 | llama.cpp | Included in `third_party/llama.cpp` |
+
+## Installation
+
+### 1. Install Qt 6
+
+Install [Qt 6](https://www.qt.io/download) with the **MSVC** or **MinGW** kit and **Qt Widgets** module.
+
+### 2. Clone this project (with llama.cpp)
+
+```bash
+git clone <your-repo-url> AI-Doctor
+cd AI-Doctor
+git submodule update --init --recursive
+```
+
+If `third_party/llama.cpp` is empty:
+
+```bash
+git clone --depth 1 https://github.com/ggerganov/llama.cpp.git third_party/llama.cpp
+```
+
+### 3. Download a GGUF model
+
+See [models/README.md](models/README.md). Place the file at:
+
+```
+models/model.gguf
+```
+
