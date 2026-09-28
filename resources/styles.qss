@@ -1,0 +1,144 @@
+/* AI Doctor - Modern Dark Theme */
+
+* {
+    font-family: "Segoe UI", "SF Pro Text", sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow, QDialog {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+QMenuBar {
+    background-color: #181825;
+    color: #cdd6f4;
+    border-bottom: 1px solid #313244;
+    padding: 2px;
+}
+
+QMenuBar::item:selected {
+    background-color: #313244;
+    border-radius: 4px;
+}
+
+QMenu {
+    background-color: #181825;
+    color: #cdd6f4;
+    border: 1px solid #313244;
+}
+
+QMenu::item:selected {
+    background-color: #45475a;
+}
+
+QTextEdit, QPlainTextEdit {
+    background-color: #11111b;
+    color: #cdd6f4;
+    border: 1px solid #313244;
+    border-radius: 8px;
+    padding: 8px;
+    selection-background-color: #45475a;
+}
+
+QLineEdit {
+    background-color: #11111b;
+    color: #cdd6f4;
+    border: 1px solid #313244;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #89b4fa;
+}
+
+QPushButton {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #b4befe;
+}
+
+QPushButton:pressed {
+    background-color: #74c7ec;
+}
+
+QPushButton:disabled {
+    background-color: #45475a;
+    color: #6c7086;
+}
+
+QPushButton#secondaryButton {
+    background-color: #313244;
+    color: #cdd6f4;
+}
+
+QPushButton#secondaryButton:hover {
+    background-color: #45475a;
+}
+
+QLabel {
+    color: #cdd6f4;
+}
+
+QLabel#titleLabel {
+    font-size: 22px;
+    font-weight: 700;
+    color: #89b4fa;
+}
+
+QLabel#subtitleLabel {
+    color: #a6adc8;
+}
+
+QGroupBox {
+    border: 1px solid #313244;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding-top: 16px;
+    color: #bac2de;
+    font-weight: 600;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 0 6px;
+}
+
+QDoubleSpinBox, QSpinBox {
+    background-color: #11111b;
+    color: #cdd6f4;
+    border: 1px solid #313244;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+QScrollBar:vertical {
+    background: #11111b;
+    width: 10px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #45475a;
+    border-radius: 5px;
+    min-height: 24px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #585b70;
+}
+
+QStatusBar {
+    background-color: #181825;
+    color: #a6adc8;
+    border-top: 1px solid #313244;
+}
