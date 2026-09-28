@@ -10,3 +10,4 @@ models/*.gguf
 
 # llama.cpp build artifacts inside submodule
 third_party/llama.cpp/build/
+*.log
